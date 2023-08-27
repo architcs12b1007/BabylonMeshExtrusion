@@ -6,11 +6,11 @@ Instructions:
 
 2. Create a cube mesh object in the scene.
 
-3.Implement the following extrusion features:
+3. Implement the following extrusion features:
 
-a. User Input: Allow user to select a face to be extruded with the first mouse click, on the second click the extrusion operation should be complete and the original mesh modified.
+   a. User Input: Allow user to select a face to be extruded with the first mouse click, on the second click the extrusion operation should be complete and the original mesh modified.
 
-b. Extrusion Animation: When the user triggers the extrusion action, smoothly animate the cube's vertices to create the extrusion effect.
+   b. Extrusion Animation: When the user triggers the extrusion action, smoothly animate the cube's vertices to create the extrusion effect.
 
 4. Implement additional features such as resetting the cube enhance the user experience.
 
