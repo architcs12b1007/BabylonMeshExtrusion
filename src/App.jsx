@@ -87,10 +87,10 @@ function App() {
     colors = Array.from({ length: (positions.length / 3) * 4 }, () => 1);
 
     // Get the indices that define the cube's triangles
-    const indices = cube.getIndices();
+    let indices = cube.getIndices();
 
     // Calculate shared vertex indices for each facet
-    const shared = indicesOffacetsShareSameVertex(indices, positions);
+    let shared = indicesOffacetsShareSameVertex(indices, positions);
 
     // Initialize a variable for a temporary plane mesh
     let plane = null;
